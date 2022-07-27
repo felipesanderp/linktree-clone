@@ -1,4 +1,5 @@
 import { Button } from "./components/Button";
+import { GithubLogo, LinkedinLogo, InstagramLogo } from 'phosphor-react';
 
 export function App() {
   return (
@@ -10,16 +11,19 @@ export function App() {
         <Button
           href="https://github.com/felipesanderp"
           title="GitHub"
+          icon={GithubLogo}
         />
 
         <Button
           href="https://www.linkedin.com/in/felipesander/"
           title="LinkedIn"
+          icon={LinkedinLogo}
         />
 
         <Button
           href="https://www.instagram.com/fespanisson/"
           title="Instagram"
+          icon={InstagramLogo}
         />
       </div>
     </div >
